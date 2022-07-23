@@ -2,7 +2,7 @@ import serial
 import time
 import tkinter
 
-
+print("test git")
 def quit():
     global tkTop
     tkTop.destroy()
