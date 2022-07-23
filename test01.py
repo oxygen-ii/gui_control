@@ -3,6 +3,7 @@ import time
 import tkinter
 
 print("test git")
+print("test branch")
 def quit():
     global tkTop
     tkTop.destroy()

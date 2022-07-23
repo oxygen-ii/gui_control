@@ -1,0 +1,26 @@
+[1mdiff --git a/.idea/vcs.xml b/.idea/vcs.xml[m
+[1mindex de6de0d..1edf607 100644[m
+[1m--- a/.idea/vcs.xml[m
+[1m+++ b/.idea/vcs.xml[m
+[36m@@ -1,6 +1,7 @@[m
+ <?xml version="1.0" encoding="UTF-8"?>[m
+ <project version="4">[m
+   <component name="VcsDirectoryMappings">[m
+[32m+[m[32m    <mapping directory="$PROJECT_DIR$" vcs="Git" />[m
+     <mapping directory="$PROJECT_DIR$/python-gphoto2" vcs="Git" />[m
+   </component>[m
+ </project>[m
+\ No newline at end of file[m
+[1mdiff --git a/test01.py b/test01.py[m
+[1mindex ffc5151..9ec792b 100644[m
+[1m--- a/test01.py[m
+[1m+++ b/test01.py[m
+[36m@@ -2,7 +2,7 @@[m [mimport serial[m
+ import time[m
+ import tkinter[m
+ [m
+[31m-[m
+[32m+[m[32mprint("test git")[m
+ def quit():[m
+     global tkTop[m
+     tkTop.destroy()[m
