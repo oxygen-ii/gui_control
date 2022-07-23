@@ -4,6 +4,7 @@ import tkinter
 
 print("test git")
 print("test branch")
+print("test pull")
 def quit():
     global tkTop
     tkTop.destroy()
